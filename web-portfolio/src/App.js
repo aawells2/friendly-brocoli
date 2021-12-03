@@ -1,6 +1,7 @@
 import 'bootstrap/dist/css/bootstrap.min.css';
 import React from 'react';
 import {BrowserRouter as Router,Routes,Route} from 'react-router-dom';
+import Footer from './components/Navbar/Footer';
 
 import NavbarComp from './components/Navbar/NavbarComp';
 import About from './components/Pages/About';
@@ -23,7 +24,7 @@ function App() {
           <Route path="/contact" element={ <Contact /> } />
           <Route path="*" element={ <ErrorPage /> } />
         </Routes>
-
+      <Footer/>
       </Router>
       
       

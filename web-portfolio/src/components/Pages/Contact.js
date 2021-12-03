@@ -3,8 +3,9 @@ import { Container, Form, Row, Col, Button } from "react-bootstrap";
 
 function Contact(){
     return(
-        <Container>
-            <h1 className="text-center mt-4">Get in Touch</h1>
+        <div>
+        <Container className="text-light">
+            <h1 className="text-center pt-4 text-light">Get in Touch</h1>
 
             <Form className="mt-5">
                 <Row className="mb-3">
@@ -32,7 +33,7 @@ function Contact(){
                 </Button>
             </Form>
         </Container>
-
+        </div>
         );
 }
 
